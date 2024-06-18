@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
@@ -17,10 +17,10 @@
             <i class="ri-menu-line"></i>
             </label>
             <ul>
-                <li><a href="http://127.0.0.1:8000/home">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li><a href="#" class="active">About</a></li>
-                <li><a href="http://127.0.0.1:8000/portofolio">Portfolio</a></li>
-                <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
+                <li><a href="/home/portofolio">Portfolio</a></li>
+                <li><a href="/home/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -40,22 +40,32 @@
         <h1>My Skills</h1>
         <div class="cards">
             <div class="skill-card">
-                <img src="img/images/php.png" alt="">
+                <img src="../assets/img/images/php.png" alt="">
                 <h2>PHP</h2>
             </div>
             <div class="skill-card">
-                <img src="img/images/css.svg" alt="">
+                <img src="../assets/img/images/css.svg" alt="">
                 <h2>CSS</h2>
             </div>
             <div class="skill-card">
-                <img src="img/images/html.svg" alt="">
+                <img src="../assets/img/images/html.svg" alt="">
                 <h2>HTML</h2>
             </div>
             <div class="skill-card">
-                <img src="img/images/js.svg" alt="">
+                <img src="../assets/img/images/js.svg" alt="">
                 <h2>JavaScript</h2>
             </div>
         </div>
     </section>
+
+    <footer>
+      <p class="footer-text">Copyright &copy; 2024</p>
+    </footer> 
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

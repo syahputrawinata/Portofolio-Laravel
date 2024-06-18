@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -14,18 +15,10 @@ Route::get('halo', function () {
 //     return "halo, aku sedang belajar routing di laravel";
 // });
 
-Route::get('about', function () {
-    return view('about');
-});
+Route::get('/home', [PageController::class, 'home']);
 
-Route::get('home', function () {
-    return view('home');
-});
+Route::get('/home/about', [PageController::class, 'about']);
 
-Route::get('portofolio', function(){
-    return view('portofolio');
-});
+Route::get('/home/portofolio', [PageController::class, 'portofolio']);
 
-Route::get('contact', function(){
-    return view('contact');
-});
+Route::get('/home/contact', [PageController::class, 'contact']);

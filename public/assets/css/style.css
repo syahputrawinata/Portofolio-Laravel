@@ -348,6 +348,7 @@ header nav ul li .active {
   height: 50vh;
   width: 100vw;
   padding: 100px;
+  margin-top: -650px;
 }
 
 .about h1 {
@@ -441,6 +442,7 @@ header nav ul li .active {
   align-items: center;
   justify-content: center;
   padding: 50px 100px;
+  margin-top: -650px;
 }
 
 .portfolio h1 {
@@ -543,7 +545,8 @@ header nav ul li .active {
 .contact {
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
+  margin-top: -600px;
 }
 
 .contact h2 {
@@ -596,4 +599,9 @@ form .input-box {
 .button button:hover {
   background-color: #fec86a;
   color: #34353b;
+}
+
+footer {
+  color:white;
+  text-align: center;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -21,9 +21,9 @@
             </label>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="http://127.0.0.1:8000/about">About</a></li>
-                <li><a href="http://127.0.0.1:8000/portofolio">Portfolio</a></li>
-                <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
+                <li><a href="/home/about">About</a></li>
+                <li><a href="/home/portofolio">Portfolio</a></li>
+                <li><a href="/home/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -58,7 +58,7 @@
                 <i class="ri-whatsapp-line"></i>
             </div>
         </div>
-    <section class="about" data-aos="fade-up">
+    <!-- <section class="about" data-aos="fade-up">
         <h1>About</h1>
         <div class="description">
             <div class="line"></div>
@@ -73,19 +73,19 @@
         <h1>My Skills</h1>
         <div class="cards">
             <div class="skill-card">
-                <img src="img/images/php.png" alt="">
+                <img src="../assets/img/images/php.png" alt="">
                 <h2>PHP</h2>
             </div>
             <div class="skill-card">
-                <img src="img/images/css.svg" alt="">
+                <img src="../assets/img/images/css.svg" alt="">
                 <h2>CSS</h2>
             </div>
             <div class="skill-card">
-                <img src="img/images/html.svg" alt="">
+                <img src="../assets/img/images/html.svg" alt="">
                 <h2>HTML</h2>
             </div>
             <div class="skill-card">
-                <img src="img/images/js.svg" alt="">
+                <img src="../assets/img/images/js.svg" alt="">
                 <h2>JavaScript</h2>
             </div>
         </div>
@@ -96,7 +96,7 @@
         data-aos-duration="1000">Portfolio</h1>
         <div class="portfolio-cards" data-aos="fade-down-right">
             <div class="portfolio-card">
-                <img src="img/images/Screenshot 2023-11-25 224044.png" alt="images">
+                <img src="../assets/img/images/Screenshot 2023-11-25 224044.png" alt="images">
                 <div class="overlay">
                     <h3></h3>
                     <p>Dicoding Sertificate!</p>
@@ -104,7 +104,7 @@
                 </div>
             </div>
             <div class="portfolio-card" data-aos="fade-down">
-                <img src="img/images/martin-martz-3_x1FRGAEwY-unsplash.jpg" alt="">
+                <img src="../assets/img/images/martin-martz-3_x1FRGAEwY-unsplash.jpg" alt="">
                 <div class="overlay">
                     <h3>EMPTY</h3>
                     <p>This Space Is Empty!</p>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="portfolio-card" data-aos="fade-down-left">
-                <img src="img/images/vimal-s-bVplevb7Bhk-unsplash.jpg" alt="">
+                <img src="../assets/img/images/vimal-s-bVplevb7Bhk-unsplash.jpg" alt="">
                 <div class="overlay">
                     <h3>EMPTY</h3>
                     <p>This Space Is Empty!</p>
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="portfolio-card" data-aos="fade-up-right">
-                <img src="img/images/warren-umoh-K7M7dQO-HrA-unsplash.jpg" alt="">
+                <img src="../assets/img/images/warren-umoh-K7M7dQO-HrA-unsplash.jpg" alt="">
                 <div class="overlay">
                     <h3>EMPTY</h3>
                     <p>This Space Is Empty!</p>
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="portfolio-card" data-aos="fade-up">
-                <img src="img/images/warren-umoh-pnMjGMOs2Xw-unsplash.jpg" alt="">
+                <img src="../assets/img/images/warren-umoh-pnMjGMOs2Xw-unsplash.jpg" alt="">
                 <div class="overlay">
                     <h3>EMPTY</h3>
                     <p>This Space Is Empty!</p>
@@ -136,7 +136,7 @@
                 </div>
             </div>
             <div class="portfolio-card" data-aos="fade-up-left">
-                <img src="img/images/warren-umoh-VL12rhr4mi0-unsplash.jpg" alt="">
+                <img src="../assets/img/images/warren-umoh-VL12rhr4mi0-unsplash.jpg" alt="">
                 <div class="overlay">
                     <h3>EMPTY</h3>
                     <p>This Space Is Empty!</p>
@@ -183,7 +183,11 @@
             <button type="submit">Send Message</button>
             </div>
         </form>
-    </section>
+    </section> -->
+
+    <footer>
+      <p class="footer-text">Copyright &copy; 2024</p>
+    </footer> 
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

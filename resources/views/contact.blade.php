@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
@@ -17,9 +17,9 @@
             <i class="ri-menu-line"></i>
             </label>
             <ul>
-                <li><a href="http://127.0.0.1:8000/home" >Home</a></li>
-                <li><a href="http://127.0.0.1:8000/about" >About</a></li>
-                <li><a href="http://127.0.0.1:8000/contact">Portfolio</a></li>
+                <li><a href="/home" >Home</a></li>
+                <li><a href="/home/about" >About</a></li>
+                <li><a href="/home/portofolio">Portfolio</a></li>
                 <li><a href="#" class="active">Contact</a></li>
             </ul>
         </nav>
@@ -62,6 +62,10 @@
             </div>
         </form>
     </section>
+
+    <footer>
+      <p class="footer-text">Copyright &copy; 2024</p>
+    </footer> 
 
 </body>
 </html>
